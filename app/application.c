@@ -1,10 +1,15 @@
 ﻿//************************************************
-//Name: agregator node
+//Name:    UCL park - agregator node
 //Purpose: read from DAQ node the details, merge them and send to sigfox
 //Author:  Pavel Majer
+//Date:    30/12/2017
+//Status: support pairing, get signal, assign message to the DAQ ids, 
+//parse it, store it to internal table and show it
+//         
+//Plan: 
 //
 //Revisions: 
-//
+//  
 //************************************************
 
 #include <application.h>
