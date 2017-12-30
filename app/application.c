@@ -1,3 +1,12 @@
+﻿//************************************************
+//Name: agregator node
+//Purpose: read from DAQ node the details, merge them and send to sigfox
+//Author:  Pavel Majer
+//
+//Revisions: 
+//
+//************************************************
+
 #include <application.h>
 #include <radio.h>
 #include <usb_talk.h>
