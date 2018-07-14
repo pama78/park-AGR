@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="app">
+        <in>application.c</in>
+        <in>application.h</in>
+        <in>eeprom.c</in>
+        <in>eeprom.h</in>
+        <in>radio.h</in>
+        <in>sensors.c</in>
+        <in>sensors.h</in>
+        <in>usb_talk.c</in>
+        <in>usb_talk.h</in>
+      </df>
+      <df name="sdk">
+        <df name="_examples">
+          <df name="button">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="infrared-receiver">
+            <in>application.c</in>
+            <in>application.h</in>
+            <in>usb_talk.c</in>
+            <in>usb_talk.h</in>
+          </df>
+          <df name="lcd-text">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="led-on-off">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="led-strip">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="lux-meter-tag">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="module_climate">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-i2c">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-relay">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-search">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="pir">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="radio-base">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="radio-remote">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="scheduler-advanced">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="scheduler-basics">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="sigfox">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="ultrasound">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="usb-sensors">
+            <in>application.c</in>
+            <in>application.h</in>
+            <in>usb_talk.c</in>
+            <in>usb_talk.h</in>
+          </df>
+        </df>
+        <df name="bcl">
+          <df name="inc">
+            <in>base64.h</in>
+            <in>bc_adc.h</in>
+            <in>bc_analog_sensor.h</in>
+            <in>bc_atsha204.h</in>
+            <in>bc_button.h</in>
+            <in>bc_common.h</in>
+            <in>bc_cp201t.h</in>
+            <in>bc_dac.h</in>
+            <in>bc_data_stream.h</in>
+            <in>bc_device_id.h</in>
+            <in>bc_dfu.h</in>
+            <in>bc_ds28e17.h</in>
+            <in>bc_eeprom.h</in>
+            <in>bc_exti.h</in>
+            <in>bc_fifo.h</in>
+            <in>bc_flood_detector.h</in>
+            <in>bc_font_common.h</in>
+            <in>bc_gpio.h</in>
+            <in>bc_hc_sr04.h</in>
+            <in>bc_hdc2080.h</in>
+            <in>bc_hts221.h</in>
+            <in>bc_i2c.h</in>
+            <in>bc_image.h</in>
+            <in>bc_ir_rx.h</in>
+            <in>bc_irq.h</in>
+            <in>bc_led.h</in>
+            <in>bc_led_strip.h</in>
+            <in>bc_lis2dh12.h</in>
+            <in>bc_log.h</in>
+            <in>bc_lp8.h</in>
+            <in>bc_module_battery.h</in>
+            <in>bc_module_climate.h</in>
+            <in>bc_module_co2.h</in>
+            <in>bc_module_core.h</in>
+            <in>bc_module_encoder.h</in>
+            <in>bc_module_lcd.h</in>
+            <in>bc_module_pir.h</in>
+            <in>bc_module_power.h</in>
+            <in>bc_module_relay.h</in>
+            <in>bc_module_sensor.h</in>
+            <in>bc_module_sigfox.h</in>
+            <in>bc_mpl3115a2.h</in>
+            <in>bc_onewire.h</in>
+            <in>bc_onewire_relay.h</in>
+            <in>bc_opt3001.h</in>
+            <in>bc_pulse_counter.h</in>
+            <in>bc_pyq1648.h</in>
+            <in>bc_queue.h</in>
+            <in>bc_radio.h</in>
+            <in>bc_radio_node.h</in>
+            <in>bc_radio_pub.h</in>
+            <in>bc_rtc.h</in>
+            <in>bc_sc16is740.h</in>
+            <in>bc_scheduler.h</in>
+            <in>bc_sht20.h</in>
+            <in>bc_sht30.h</in>
+            <in>bc_spi.h</in>
+            <in>bc_spirit1.h</in>
+            <in>bc_tag_barometer.h</in>
+            <in>bc_tag_humidity.h</in>
+            <in>bc_tag_lux_meter.h</in>
+            <in>bc_tag_temperature.h</in>
+            <in>bc_tca9534a.h</in>
+            <in>bc_td1207r.h</in>
+            <in>bc_tick.h</in>
+            <in>bc_tmp112.h</in>
+            <in>bc_uart.h</in>
+            <in>bc_usb_cdc.h</in>
+            <in>bc_ws2812b.h</in>
+            <in>bc_wssfm10r1at.h</in>
+            <in>bcl.h</in>
+            <in>jsmn.h</in>
+          </df>
+          <df name="src">
+            <in>base64.c</in>
+            <in>bc_adc.c</in>
+            <in>bc_analog_sensor.c</in>
+            <in>bc_atsha204.c</in>
+            <in>bc_button.c</in>
+            <in>bc_cp201t.c</in>
+            <in>bc_dac.c</in>
+            <in>bc_data_stream.c</in>
+            <in>bc_device_id.c</in>
+            <in>bc_dfu.c</in>
+            <in>bc_ds28e17.c</in>
+            <in>bc_eeprom.c</in>
+            <in>bc_exti.c</in>
+            <in>bc_fifo.c</in>
+            <in>bc_flood_detector.c</in>
+            <in>bc_font_ubuntu_11.c</in>
+            <in>bc_font_ubuntu_13.c</in>
+            <in>bc_font_ubuntu_15.c</in>
+            <in>bc_font_ubuntu_24.c</in>
+            <in>bc_font_ubuntu_28.c</in>
+            <in>bc_font_ubuntu_33.c</in>
+            <in>bc_gpio.c</in>
+            <in>bc_hc_sr04.c</in>
+            <in>bc_hdc2080.c</in>
+            <in>bc_hts221.c</in>
+            <in>bc_i2c.c</in>
+            <in>bc_ir_rx.c</in>
+            <in>bc_irq.c</in>
+            <in>bc_led.c</in>
+            <in>bc_led_strip.c</in>
+            <in>bc_lis2dh12.c</in>
+            <in>bc_log.c</in>
+            <in>bc_lp8.c</in>
+            <in>bc_module_battery.c</in>
+            <in>bc_module_climate.c</in>
+            <in>bc_module_co2.c</in>
+            <in>bc_module_core.c</in>
+            <in>bc_module_encoder.c</in>
+            <in>bc_module_lcd.c</in>
+            <in>bc_module_pir.c</in>
+            <in>bc_module_power.c</in>
+            <in>bc_module_relay.c</in>
+            <in>bc_module_sensor.c</in>
+            <in>bc_module_sigfox.c</in>
+            <in>bc_mpl3115a2.c</in>
+            <in>bc_onewire.c</in>
+            <in>bc_onewire_relay.c</in>
+            <in>bc_opt3001.c</in>
+            <in>bc_pulse_counter.c</in>
+            <in>bc_pyq1648.c</in>
+            <in>bc_queue.c</in>
+            <in>bc_radio.c</in>
+            <in>bc_radio_node.c</in>
+            <in>bc_radio_pub.c</in>
+            <in>bc_rtc.c</in>
+            <in>bc_sc16is740.c</in>
+            <in>bc_scheduler.c</in>
+            <in>bc_sht20.c</in>
+            <in>bc_sht30.c</in>
+            <in>bc_spi.c</in>
+            <in>bc_spirit1.c</in>
+            <in>bc_tag_barometer.c</in>
+            <in>bc_tag_humidity.c</in>
+            <in>bc_tag_lux_meter.c</in>
+            <in>bc_tag_temperature.c</in>
+            <in>bc_tca9534a.c</in>
+            <in>bc_td1207r.c</in>
+            <in>bc_tick.c</in>
+            <in>bc_tmp112.c</in>
+            <in>bc_uart.c</in>
+            <in>bc_usb_cdc.c</in>
+            <in>bc_ws2812b.c</in>
+            <in>bc_wssfm10r1at.c</in>
+            <in>jsmn.c</in>
+          </df>
+          <df name="stm">
+            <df name="inc">
+              <in>main.h</in>
+              <in>stm32l0xx_hal_conf.h</in>
+              <in>stm32l0xx_it.h</in>
+              <in>usbd_cdc_if.h</in>
+              <in>usbd_conf.h</in>
+              <in>usbd_desc.h</in>
+            </df>
+            <df name="src">
+              <in>main.c</in>
+              <in>stm32l0xx_it.c</in>
+              <in>usbd_cdc_if.c</in>
+              <in>usbd_conf.c</in>
+              <in>usbd_desc.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="stm">
+          <df name="hal">
+            <df name="inc">
+              <df name="legacy">
+                <in>stm32_hal_legacy.h</in>
+              </df>
+              <in>stm32l0xx_hal.h</in>
+              <in>stm32l0xx_hal_adc.h</in>
+              <in>stm32l0xx_hal_adc_ex.h</in>
+              <in>stm32l0xx_hal_comp.h</in>
+              <in>stm32l0xx_hal_comp_ex.h</in>
+              <in>stm32l0xx_hal_cortex.h</in>
+              <in>stm32l0xx_hal_crc.h</in>
+              <in>stm32l0xx_hal_crc_ex.h</in>
+              <in>stm32l0xx_hal_cryp.h</in>
+              <in>stm32l0xx_hal_cryp_ex.h</in>
+              <in>stm32l0xx_hal_dac.h</in>
+              <in>stm32l0xx_hal_dac_ex.h</in>
+              <in>stm32l0xx_hal_def.h</in>
+              <in>stm32l0xx_hal_dma.h</in>
+              <in>stm32l0xx_hal_firewall.h</in>
+              <in>stm32l0xx_hal_flash.h</in>
+              <in>stm32l0xx_hal_flash_ex.h</in>
+              <in>stm32l0xx_hal_flash_ramfunc.h</in>
+              <in>stm32l0xx_hal_gpio.h</in>
+              <in>stm32l0xx_hal_gpio_ex.h</in>
+              <in>stm32l0xx_hal_i2c.h</in>
+              <in>stm32l0xx_hal_i2c_ex.h</in>
+              <in>stm32l0xx_hal_i2s.h</in>
+              <in>stm32l0xx_hal_irda.h</in>
+              <in>stm32l0xx_hal_irda_ex.h</in>
+              <in>stm32l0xx_hal_iwdg.h</in>
+              <in>stm32l0xx_hal_lcd.h</in>
+              <in>stm32l0xx_hal_lptim.h</in>
+              <in>stm32l0xx_hal_lptim_ex.h</in>
+              <in>stm32l0xx_hal_pcd.h</in>
+              <in>stm32l0xx_hal_pcd_ex.h</in>
+              <in>stm32l0xx_hal_pwr.h</in>
+              <in>stm32l0xx_hal_pwr_ex.h</in>
+              <in>stm32l0xx_hal_rcc.h</in>
+              <in>stm32l0xx_hal_rcc_ex.h</in>
+              <in>stm32l0xx_hal_rng.h</in>
+              <in>stm32l0xx_hal_rtc.h</in>
+              <in>stm32l0xx_hal_rtc_ex.h</in>
+              <in>stm32l0xx_hal_smartcard.h</in>
+              <in>stm32l0xx_hal_smartcard_ex.h</in>
+              <in>stm32l0xx_hal_smbus.h</in>
+              <in>stm32l0xx_hal_spi.h</in>
+              <in>stm32l0xx_hal_tim.h</in>
+              <in>stm32l0xx_hal_tim_ex.h</in>
+              <in>stm32l0xx_hal_tsc.h</in>
+              <in>stm32l0xx_hal_uart.h</in>
+              <in>stm32l0xx_hal_uart_ex.h</in>
+              <in>stm32l0xx_hal_usart.h</in>
+              <in>stm32l0xx_hal_usart_ex.h</in>
+              <in>stm32l0xx_hal_wwdg.h</in>
+            </df>
+            <df name="src">
+              <in>stm32l0xx_hal.c</in>
+              <in>stm32l0xx_hal_adc.c</in>
+              <in>stm32l0xx_hal_adc_ex.c</in>
+              <in>stm32l0xx_hal_comp.c</in>
+              <in>stm32l0xx_hal_comp_ex.c</in>
+              <in>stm32l0xx_hal_cortex.c</in>
+              <in>stm32l0xx_hal_crc.c</in>
+              <in>stm32l0xx_hal_crc_ex.c</in>
+              <in>stm32l0xx_hal_cryp.c</in>
+              <in>stm32l0xx_hal_cryp_ex.c</in>
+              <in>stm32l0xx_hal_dac.c</in>
+              <in>stm32l0xx_hal_dac_ex.c</in>
+              <in>stm32l0xx_hal_dma.c</in>
+              <in>stm32l0xx_hal_firewall.c</in>
+              <in>stm32l0xx_hal_flash.c</in>
+              <in>stm32l0xx_hal_flash_ex.c</in>
+              <in>stm32l0xx_hal_flash_ramfunc.c</in>
+              <in>stm32l0xx_hal_gpio.c</in>
+              <in>stm32l0xx_hal_i2c.c</in>
+              <in>stm32l0xx_hal_i2c_ex.c</in>
+              <in>stm32l0xx_hal_i2s.c</in>
+              <in>stm32l0xx_hal_irda.c</in>
+              <in>stm32l0xx_hal_iwdg.c</in>
+              <in>stm32l0xx_hal_lcd.c</in>
+              <in>stm32l0xx_hal_lptim.c</in>
+              <in>stm32l0xx_hal_pcd.c</in>
+              <in>stm32l0xx_hal_pcd_ex.c</in>
+              <in>stm32l0xx_hal_pwr.c</in>
+              <in>stm32l0xx_hal_pwr_ex.c</in>
+              <in>stm32l0xx_hal_rcc.c</in>
+              <in>stm32l0xx_hal_rcc_ex.c</in>
+              <in>stm32l0xx_hal_rng.c</in>
+              <in>stm32l0xx_hal_rtc.c</in>
+              <in>stm32l0xx_hal_rtc_ex.c</in>
+              <in>stm32l0xx_hal_smartcard.c</in>
+              <in>stm32l0xx_hal_smartcard_ex.c</in>
+              <in>stm32l0xx_hal_smbus.c</in>
+              <in>stm32l0xx_hal_spi.c</in>
+              <in>stm32l0xx_hal_tim.c</in>
+              <in>stm32l0xx_hal_tim_ex.c</in>
+              <in>stm32l0xx_hal_tsc.c</in>
+              <in>stm32l0xx_hal_uart.c</in>
+              <in>stm32l0xx_hal_uart_ex.c</in>
+              <in>stm32l0xx_hal_usart.c</in>
+              <in>stm32l0xx_hal_wwdg.c</in>
+            </df>
+          </df>
+          <df name="spirit1">
+            <df name="inc">
+              <in>MCU_Interface.h</in>
+              <in>SDK_Configuration_Common.h</in>
+              <in>SPIRIT_Aes.h</in>
+              <in>SPIRIT_Calibration.h</in>
+              <in>SPIRIT_Commands.h</in>
+              <in>SPIRIT_Config.h</in>
+              <in>SPIRIT_Csma.h</in>
+              <in>SPIRIT_DirectRF.h</in>
+              <in>SPIRIT_General.h</in>
+              <in>SPIRIT_Gpio.h</in>
+              <in>SPIRIT_Irq.h</in>
+              <in>SPIRIT_LinearFifo.h</in>
+              <in>SPIRIT_Management.h</in>
+              <in>SPIRIT_PktBasic.h</in>
+              <in>SPIRIT_PktCommon.h</in>
+              <in>SPIRIT_PktMbus.h</in>
+              <in>SPIRIT_PktStack.h</in>
+              <in>SPIRIT_Qi.h</in>
+              <in>SPIRIT_Radio.h</in>
+              <in>SPIRIT_Regs.h</in>
+              <in>SPIRIT_Timer.h</in>
+              <in>SPIRIT_Types.h</in>
+            </df>
+            <df name="src">
+              <in>SPIRIT_Aes.c</in>
+              <in>SPIRIT_Calibration.c</in>
+              <in>SPIRIT_Commands.c</in>
+              <in>SPIRIT_Csma.c</in>
+              <in>SPIRIT_DirectRF.c</in>
+              <in>SPIRIT_General.c</in>
+              <in>SPIRIT_Gpio.c</in>
+              <in>SPIRIT_Irq.c</in>
+              <in>SPIRIT_LinearFifo.c</in>
+              <in>SPIRIT_Management.c</in>
+              <in>SPIRIT_PktBasic.c</in>
+              <in>SPIRIT_PktCommon.c</in>
+              <in>SPIRIT_PktMbus.c</in>
+              <in>SPIRIT_PktStack.c</in>
+              <in>SPIRIT_Qi.c</in>
+              <in>SPIRIT_Radio.c</in>
+              <in>SPIRIT_Timer.c</in>
+              <in>SPIRIT_Types.c</in>
+            </df>
+          </df>
+          <df name="usb">
+            <df name="inc">
+              <in>usbd_cdc.h</in>
+              <in>usbd_core.h</in>
+              <in>usbd_ctlreq.h</in>
+              <in>usbd_def.h</in>
+              <in>usbd_ioreq.h</in>
+            </df>
+            <df name="src">
+              <in>usbd_cdc.c</in>
+              <in>usbd_core.c</in>
+              <in>usbd_ctlreq.c</in>
+              <in>usbd_ioreq.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="sys">
+          <df name="inc">
+            <in>cmsis_gcc.h</in>
+            <in>core_cm0plus.h</in>
+            <in>core_cmFunc.h</in>
+            <in>core_cmInstr.h</in>
+            <in>stm32l083xx.h</in>
+            <in>stm32l0xx.h</in>
+            <in>system_stm32l0xx.h</in>
+          </df>
+          <df name="src">
+            <in>startup_stm32l083xx.s</in>
+            <in>system_stm32l0xx.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="app/application.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="app/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app/eeprom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="app/eeprom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app/radio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app/sensors.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="app/sensors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app/usb_talk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="app/usb_talk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/_examples/button/application.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/_examples/button/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/_examples/infrared-receiver/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/infrared-receiver/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/infrared-receiver/usb_talk.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/infrared-receiver/usb_talk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/lcd-text/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/lcd-text/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/led-on-off/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/led-on-off/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/led-strip/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/led-strip/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/lux-meter-tag/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/lux-meter-tag/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/module_climate/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/module_climate/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-i2c/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-i2c/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-relay/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-relay/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-search/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/onewire-search/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/pir/application.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/_examples/pir/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/_examples/radio-base/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/radio-base/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/radio-remote/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/radio-remote/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/scheduler-advanced/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/scheduler-advanced/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/scheduler-basics/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/scheduler-basics/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/sigfox/application.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/_examples/sigfox/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/_examples/ultrasound/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/ultrasound/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/usb-sensors/application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/usb-sensors/application.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/usb-sensors/usb_talk.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/_examples/usb-sensors/usb_talk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_adc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_analog_sensor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_atsha204.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_cp201t.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_dac.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_data_stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_device_id.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_dfu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_ds28e17.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_eeprom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_exti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_fifo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_flood_detector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_font_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_hc_sr04.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_hdc2080.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_hts221.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_i2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_ir_rx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_irq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_led.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_led_strip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_lis2dh12.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_lp8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_battery.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_climate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_co2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_lcd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_pir.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_power.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_relay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_sensor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_module_sigfox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_mpl3115a2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_onewire.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_onewire_relay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_opt3001.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_pulse_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_pyq1648.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_radio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_radio_node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_radio_pub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_rtc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_sc16is740.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_scheduler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_sht20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_sht30.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_spi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_spirit1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tag_barometer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tag_humidity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tag_lux_meter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tag_temperature.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tca9534a.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_td1207r.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_tmp112.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_uart.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_usb_cdc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_ws2812b.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bc_wssfm10r1at.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/bcl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/inc/jsmn.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/base64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_adc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_analog_sensor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_atsha204.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_button.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_cp201t.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_dac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_data_stream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_device_id.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_dfu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_ds28e17.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_eeprom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_exti.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_fifo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_flood_detector.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_13.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_24.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_28.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_font_ubuntu_33.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_gpio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_hc_sr04.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_hdc2080.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_hts221.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_i2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_ir_rx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_irq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_led.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_led_strip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_lis2dh12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_lp8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_battery.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_climate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_co2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_encoder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_lcd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_pir.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_power.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_relay.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_sensor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_module_sigfox.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_mpl3115a2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_onewire.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_onewire_relay.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_opt3001.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_pulse_counter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_pyq1648.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_radio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_radio_node.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_radio_pub.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_rtc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_sc16is740.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_scheduler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_sht20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_sht30.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_spi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_spirit1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tag_barometer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tag_humidity.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tag_lux_meter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tag_temperature.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tca9534a.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_td1207r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tick.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_tmp112.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_uart.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_usb_cdc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_ws2812b.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/bc_wssfm10r1at.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/src/jsmn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/stm32l0xx_hal_conf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/stm32l0xx_it.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/usbd_cdc_if.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/usbd_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/inc/usbd_desc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/src/stm32l0xx_it.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/src/usbd_cdc_if.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/src/usbd_conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/bcl/stm/src/usbd_desc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/legacy/stm32_hal_legacy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_adc_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_comp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_comp_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_cortex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_crc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_crc_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_cryp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_cryp_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_dac_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_def.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_dma.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_firewall.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_flash_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_flash_ramfunc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_gpio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_gpio_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_i2c_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_i2s.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_irda.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_irda_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_iwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_lcd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_lptim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_lptim_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_pcd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_pcd_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_pwr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_pwr_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_rcc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_rcc_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_rng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_rtc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_rtc_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_smartcard.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_smartcard_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_smbus.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_tim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_tim_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_tsc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_uart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_uart_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_usart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_usart_ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/inc/stm32l0xx_hal_wwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_adc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_comp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_comp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_crc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_cryp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_cryp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_dac_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_firewall.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_flash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_flash_ramfunc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_i2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_irda.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_lcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_pwr_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_rcc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_rtc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_smartcard.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_smartcard_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_smbus.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_tsc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_uart_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/hal/src/stm32l0xx_hal_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/MCU_Interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SDK_Configuration_Common.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Aes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Calibration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Commands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Csma.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_DirectRF.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_General.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Gpio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Irq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_LinearFifo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Management.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_PktBasic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_PktCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_PktMbus.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_PktStack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Qi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Radio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Regs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/inc/SPIRIT_Types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Aes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Calibration.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Commands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Csma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_DirectRF.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_General.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Gpio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Irq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_LinearFifo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Management.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_PktBasic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_PktCommon.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_PktMbus.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_PktStack.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Qi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Radio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Timer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/spirit1/src/SPIRIT_Types.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/inc/usbd_cdc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/inc/usbd_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/inc/usbd_ctlreq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/inc/usbd_def.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/inc/usbd_ioreq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/src/usbd_cdc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/src/usbd_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/src/usbd_ctlreq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/stm/usb/src/usbd_ioreq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/cmsis_gcc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/core_cm0plus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/core_cmFunc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/core_cmInstr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/stm32l083xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/stm32l0xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/inc/system_stm32l0xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sdk/sys/src/startup_stm32l083xx.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="sdk/sys/src/system_stm32l0xx.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

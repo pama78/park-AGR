@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".vscode">
+      </df>
+      <df name="app">
+        <in>application.c</in>
+        <in>application.h</in>
+        <in>eeprom.c</in>
+        <in>eeprom.h</in>
+        <in>radio.h</in>
+        <in>sensors.c</in>
+        <in>sensors.h</in>
+        <in>usb_talk.c</in>
+        <in>usb_talk.h</in>
+      </df>
+      <df name="obj">
+        <df name="debug">
+          <df name="app">
+          </df>
+          <df name="sdk">
+            <df name="bcl">
+              <df name="src">
+              </df>
+              <df name="stm">
+                <df name="src">
+                </df>
+              </df>
+            </df>
+            <df name="stm">
+              <df name="hal">
+                <df name="src">
+                </df>
+              </df>
+              <df name="spirit1">
+                <df name="src">
+                </df>
+              </df>
+              <df name="usb">
+                <df name="src">
+                </df>
+              </df>
+            </df>
+            <df name="sys">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="out">
+        <df name="debug">
+        </df>
+      </df>
+      <df name="sdk">
+        <df name=".vscode">
+        </df>
+        <df name="_examples">
+          <df name="button">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="infrared-receiver">
+            <in>application.c</in>
+            <in>application.h</in>
+            <in>usb_talk.c</in>
+            <in>usb_talk.h</in>
+          </df>
+          <df name="lcd-text">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="led-on-off">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="led-strip">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="lux-meter-tag">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="module_climate">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-i2c">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-relay">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="onewire-search">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="pir">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="radio-base">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="radio-remote">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="scheduler-advanced">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="scheduler-basics">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="sigfox">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="ultrasound">
+            <in>application.c</in>
+            <in>application.h</in>
+          </df>
+          <df name="usb-sensors">
+            <in>application.c</in>
+            <in>application.h</in>
+            <in>usb_talk.c</in>
+            <in>usb_talk.h</in>
+          </df>
+        </df>
+        <df name="bcl">
+          <df name="inc">
+            <in>base64.h</in>
+            <in>bc_adc.h</in>
+            <in>bc_analog_sensor.h</in>
+            <in>bc_atsha204.h</in>
+            <in>bc_button.h</in>
+            <in>bc_common.h</in>
+            <in>bc_cp201t.h</in>
+            <in>bc_dac.h</in>
+            <in>bc_data_stream.h</in>
+            <in>bc_device_id.h</in>
+            <in>bc_dfu.h</in>
+            <in>bc_ds28e17.h</in>
+            <in>bc_eeprom.h</in>
+            <in>bc_exti.h</in>
+            <in>bc_fifo.h</in>
+            <in>bc_flood_detector.h</in>
+            <in>bc_font_common.h</in>
+            <in>bc_gpio.h</in>
+            <in>bc_hc_sr04.h</in>
+            <in>bc_hdc2080.h</in>
+            <in>bc_hts221.h</in>
+            <in>bc_i2c.h</in>
+            <in>bc_image.h</in>
+            <in>bc_ir_rx.h</in>
+            <in>bc_irq.h</in>
+            <in>bc_led.h</in>
+            <in>bc_led_strip.h</in>
+            <in>bc_lis2dh12.h</in>
+            <in>bc_log.h</in>
+            <in>bc_lp8.h</in>
+            <in>bc_module_battery.h</in>
+            <in>bc_module_climate.h</in>
+            <in>bc_module_co2.h</in>
+            <in>bc_module_core.h</in>
+            <in>bc_module_encoder.h</in>
+            <in>bc_module_lcd.h</in>
+            <in>bc_module_pir.h</in>
+            <in>bc_module_power.h</in>
+            <in>bc_module_relay.h</in>
+            <in>bc_module_sensor.h</in>
+            <in>bc_module_sigfox.h</in>
+            <in>bc_mpl3115a2.h</in>
+            <in>bc_onewire.h</in>
+            <in>bc_onewire_relay.h</in>
+            <in>bc_opt3001.h</in>
+            <in>bc_pulse_counter.h</in>
+            <in>bc_pyq1648.h</in>
+            <in>bc_queue.h</in>
+            <in>bc_radio.h</in>
+            <in>bc_radio_node.h</in>
+            <in>bc_radio_pub.h</in>
+            <in>bc_rtc.h</in>
+            <in>bc_sc16is740.h</in>
+            <in>bc_scheduler.h</in>
+            <in>bc_sht20.h</in>
+            <in>bc_sht30.h</in>
+            <in>bc_spi.h</in>
+            <in>bc_spirit1.h</in>
+            <in>bc_tag_barometer.h</in>
+            <in>bc_tag_humidity.h</in>
+            <in>bc_tag_lux_meter.h</in>
+            <in>bc_tag_temperature.h</in>
+            <in>bc_tca9534a.h</in>
+            <in>bc_td1207r.h</in>
+            <in>bc_tick.h</in>
+            <in>bc_tmp112.h</in>
+            <in>bc_uart.h</in>
+            <in>bc_usb_cdc.h</in>
+            <in>bc_ws2812b.h</in>
+            <in>bc_wssfm10r1at.h</in>
+            <in>bcl.h</in>
+            <in>jsmn.h</in>
+          </df>
+          <df name="src">
+            <in>base64.c</in>
+            <in>bc_adc.c</in>
+            <in>bc_analog_sensor.c</in>
+            <in>bc_atsha204.c</in>
+            <in>bc_button.c</in>
+            <in>bc_cp201t.c</in>
+            <in>bc_dac.c</in>
+            <in>bc_data_stream.c</in>
+            <in>bc_device_id.c</in>
+            <in>bc_dfu.c</in>
+            <in>bc_ds28e17.c</in>
+            <in>bc_eeprom.c</in>
+            <in>bc_exti.c</in>
+            <in>bc_fifo.c</in>
+            <in>bc_flood_detector.c</in>
+            <in>bc_font_ubuntu_11.c</in>
+            <in>bc_font_ubuntu_13.c</in>
+            <in>bc_font_ubuntu_15.c</in>
+            <in>bc_font_ubuntu_24.c</in>
+            <in>bc_font_ubuntu_28.c</in>
+            <in>bc_font_ubuntu_33.c</in>
+            <in>bc_gpio.c</in>
+            <in>bc_hc_sr04.c</in>
+            <in>bc_hdc2080.c</in>
+            <in>bc_hts221.c</in>
+            <in>bc_i2c.c</in>
+            <in>bc_ir_rx.c</in>
+            <in>bc_irq.c</in>
+            <in>bc_led.c</in>
+            <in>bc_led_strip.c</in>
+            <in>bc_lis2dh12.c</in>
+            <in>bc_log.c</in>
+            <in>bc_lp8.c</in>
+            <in>bc_module_battery.c</in>
+            <in>bc_module_climate.c</in>
+            <in>bc_module_co2.c</in>
+            <in>bc_module_core.c</in>
+            <in>bc_module_encoder.c</in>
+            <in>bc_module_lcd.c</in>
+            <in>bc_module_pir.c</in>
+            <in>bc_module_power.c</in>
+            <in>bc_module_relay.c</in>
+            <in>bc_module_sensor.c</in>
+            <in>bc_module_sigfox.c</in>
+            <in>bc_mpl3115a2.c</in>
+            <in>bc_onewire.c</in>
+            <in>bc_onewire_relay.c</in>
+            <in>bc_opt3001.c</in>
+            <in>bc_pulse_counter.c</in>
+            <in>bc_pyq1648.c</in>
+            <in>bc_queue.c</in>
+            <in>bc_radio.c</in>
+            <in>bc_radio_node.c</in>
+            <in>bc_radio_pub.c</in>
+            <in>bc_rtc.c</in>
+            <in>bc_sc16is740.c</in>
+            <in>bc_scheduler.c</in>
+            <in>bc_sht20.c</in>
+            <in>bc_sht30.c</in>
+            <in>bc_spi.c</in>
+            <in>bc_spirit1.c</in>
+            <in>bc_tag_barometer.c</in>
+            <in>bc_tag_humidity.c</in>
+            <in>bc_tag_lux_meter.c</in>
+            <in>bc_tag_temperature.c</in>
+            <in>bc_tca9534a.c</in>
+            <in>bc_td1207r.c</in>
+            <in>bc_tick.c</in>
+            <in>bc_tmp112.c</in>
+            <in>bc_uart.c</in>
+            <in>bc_usb_cdc.c</in>
+            <in>bc_ws2812b.c</in>
+            <in>bc_wssfm10r1at.c</in>
+            <in>jsmn.c</in>
+          </df>
+          <df name="stm">
+            <df name="inc">
+              <in>main.h</in>
+              <in>stm32l0xx_hal_conf.h</in>
+              <in>stm32l0xx_it.h</in>
+              <in>usbd_cdc_if.h</in>
+              <in>usbd_conf.h</in>
+              <in>usbd_desc.h</in>
+            </df>
+            <df name="src">
+              <in>main.c</in>
+              <in>stm32l0xx_it.c</in>
+              <in>usbd_cdc_if.c</in>
+              <in>usbd_conf.c</in>
+              <in>usbd_desc.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="doc">
+          <df name="css">
+          </df>
+          <df name="img">
+          </df>
+        </df>
+        <df name="fonts">
+        </df>
+        <df name="stm">
+          <df name="hal">
+            <df name="inc">
+              <df name="legacy">
+                <in>stm32_hal_legacy.h</in>
+              </df>
+              <in>stm32l0xx_hal.h</in>
+              <in>stm32l0xx_hal_adc.h</in>
+              <in>stm32l0xx_hal_adc_ex.h</in>
+              <in>stm32l0xx_hal_comp.h</in>
+              <in>stm32l0xx_hal_comp_ex.h</in>
+              <in>stm32l0xx_hal_cortex.h</in>
+              <in>stm32l0xx_hal_crc.h</in>
+              <in>stm32l0xx_hal_crc_ex.h</in>
+              <in>stm32l0xx_hal_cryp.h</in>
+              <in>stm32l0xx_hal_cryp_ex.h</in>
+              <in>stm32l0xx_hal_dac.h</in>
+              <in>stm32l0xx_hal_dac_ex.h</in>
+              <in>stm32l0xx_hal_def.h</in>
+              <in>stm32l0xx_hal_dma.h</in>
+              <in>stm32l0xx_hal_firewall.h</in>
+              <in>stm32l0xx_hal_flash.h</in>
+              <in>stm32l0xx_hal_flash_ex.h</in>
+              <in>stm32l0xx_hal_flash_ramfunc.h</in>
+              <in>stm32l0xx_hal_gpio.h</in>
+              <in>stm32l0xx_hal_gpio_ex.h</in>
+              <in>stm32l0xx_hal_i2c.h</in>
+              <in>stm32l0xx_hal_i2c_ex.h</in>
+              <in>stm32l0xx_hal_i2s.h</in>
+              <in>stm32l0xx_hal_irda.h</in>
+              <in>stm32l0xx_hal_irda_ex.h</in>
+              <in>stm32l0xx_hal_iwdg.h</in>
+              <in>stm32l0xx_hal_lcd.h</in>
+              <in>stm32l0xx_hal_lptim.h</in>
+              <in>stm32l0xx_hal_lptim_ex.h</in>
+              <in>stm32l0xx_hal_pcd.h</in>
+              <in>stm32l0xx_hal_pcd_ex.h</in>
+              <in>stm32l0xx_hal_pwr.h</in>
+              <in>stm32l0xx_hal_pwr_ex.h</in>
+              <in>stm32l0xx_hal_rcc.h</in>
+              <in>stm32l0xx_hal_rcc_ex.h</in>
+              <in>stm32l0xx_hal_rng.h</in>
+              <in>stm32l0xx_hal_rtc.h</in>
+              <in>stm32l0xx_hal_rtc_ex.h</in>
+              <in>stm32l0xx_hal_smartcard.h</in>
+              <in>stm32l0xx_hal_smartcard_ex.h</in>
+              <in>stm32l0xx_hal_smbus.h</in>
+              <in>stm32l0xx_hal_spi.h</in>
+              <in>stm32l0xx_hal_tim.h</in>
+              <in>stm32l0xx_hal_tim_ex.h</in>
+              <in>stm32l0xx_hal_tsc.h</in>
+              <in>stm32l0xx_hal_uart.h</in>
+              <in>stm32l0xx_hal_uart_ex.h</in>
+              <in>stm32l0xx_hal_usart.h</in>
+              <in>stm32l0xx_hal_usart_ex.h</in>
+              <in>stm32l0xx_hal_wwdg.h</in>
+            </df>
+            <df name="src">
+              <in>stm32l0xx_hal.c</in>
+              <in>stm32l0xx_hal_adc.c</in>
+              <in>stm32l0xx_hal_adc_ex.c</in>
+              <in>stm32l0xx_hal_comp.c</in>
+              <in>stm32l0xx_hal_comp_ex.c</in>
+              <in>stm32l0xx_hal_cortex.c</in>
+              <in>stm32l0xx_hal_crc.c</in>
+              <in>stm32l0xx_hal_crc_ex.c</in>
+              <in>stm32l0xx_hal_cryp.c</in>
+              <in>stm32l0xx_hal_cryp_ex.c</in>
+              <in>stm32l0xx_hal_dac.c</in>
+              <in>stm32l0xx_hal_dac_ex.c</in>
+              <in>stm32l0xx_hal_dma.c</in>
+              <in>stm32l0xx_hal_firewall.c</in>
+              <in>stm32l0xx_hal_flash.c</in>
+              <in>stm32l0xx_hal_flash_ex.c</in>
+              <in>stm32l0xx_hal_flash_ramfunc.c</in>
+              <in>stm32l0xx_hal_gpio.c</in>
+              <in>stm32l0xx_hal_i2c.c</in>
+              <in>stm32l0xx_hal_i2c_ex.c</in>
+              <in>stm32l0xx_hal_i2s.c</in>
+              <in>stm32l0xx_hal_irda.c</in>
+              <in>stm32l0xx_hal_iwdg.c</in>
+              <in>stm32l0xx_hal_lcd.c</in>
+              <in>stm32l0xx_hal_lptim.c</in>
+              <in>stm32l0xx_hal_pcd.c</in>
+              <in>stm32l0xx_hal_pcd_ex.c</in>
+              <in>stm32l0xx_hal_pwr.c</in>
+              <in>stm32l0xx_hal_pwr_ex.c</in>
+              <in>stm32l0xx_hal_rcc.c</in>
+              <in>stm32l0xx_hal_rcc_ex.c</in>
+              <in>stm32l0xx_hal_rng.c</in>
+              <in>stm32l0xx_hal_rtc.c</in>
+              <in>stm32l0xx_hal_rtc_ex.c</in>
+              <in>stm32l0xx_hal_smartcard.c</in>
+              <in>stm32l0xx_hal_smartcard_ex.c</in>
+              <in>stm32l0xx_hal_smbus.c</in>
+              <in>stm32l0xx_hal_spi.c</in>
+              <in>stm32l0xx_hal_tim.c</in>
+              <in>stm32l0xx_hal_tim_ex.c</in>
+              <in>stm32l0xx_hal_tsc.c</in>
+              <in>stm32l0xx_hal_uart.c</in>
+              <in>stm32l0xx_hal_uart_ex.c</in>
+              <in>stm32l0xx_hal_usart.c</in>
+              <in>stm32l0xx_hal_wwdg.c</in>
+            </df>
+          </df>
+          <df name="spirit1">
+            <df name="inc">
+              <in>MCU_Interface.h</in>
+              <in>SDK_Configuration_Common.h</in>
+              <in>SPIRIT_Aes.h</in>
+              <in>SPIRIT_Calibration.h</in>
+              <in>SPIRIT_Commands.h</in>
+              <in>SPIRIT_Config.h</in>
+              <in>SPIRIT_Csma.h</in>
+              <in>SPIRIT_DirectRF.h</in>
+              <in>SPIRIT_General.h</in>
+              <in>SPIRIT_Gpio.h</in>
+              <in>SPIRIT_Irq.h</in>
+              <in>SPIRIT_LinearFifo.h</in>
+              <in>SPIRIT_Management.h</in>
+              <in>SPIRIT_PktBasic.h</in>
+              <in>SPIRIT_PktCommon.h</in>
+              <in>SPIRIT_PktMbus.h</in>
+              <in>SPIRIT_PktStack.h</in>
+              <in>SPIRIT_Qi.h</in>
+              <in>SPIRIT_Radio.h</in>
+              <in>SPIRIT_Regs.h</in>
+              <in>SPIRIT_Timer.h</in>
+              <in>SPIRIT_Types.h</in>
+            </df>
+            <df name="src">
+              <in>SPIRIT_Aes.c</in>
+              <in>SPIRIT_Calibration.c</in>
+              <in>SPIRIT_Commands.c</in>
+              <in>SPIRIT_Csma.c</in>
+              <in>SPIRIT_DirectRF.c</in>
+              <in>SPIRIT_General.c</in>
+              <in>SPIRIT_Gpio.c</in>
+              <in>SPIRIT_Irq.c</in>
+              <in>SPIRIT_LinearFifo.c</in>
+              <in>SPIRIT_Management.c</in>
+              <in>SPIRIT_PktBasic.c</in>
+              <in>SPIRIT_PktCommon.c</in>
+              <in>SPIRIT_PktMbus.c</in>
+              <in>SPIRIT_PktStack.c</in>
+              <in>SPIRIT_Qi.c</in>
+              <in>SPIRIT_Radio.c</in>
+              <in>SPIRIT_Timer.c</in>
+              <in>SPIRIT_Types.c</in>
+            </df>
+          </df>
+          <df name="usb">
+            <df name="inc">
+              <in>usbd_cdc.h</in>
+              <in>usbd_core.h</in>
+              <in>usbd_ctlreq.h</in>
+              <in>usbd_def.h</in>
+              <in>usbd_ioreq.h</in>
+            </df>
+            <df name="src">
+              <in>usbd_cdc.c</in>
+              <in>usbd_core.c</in>
+              <in>usbd_ctlreq.c</in>
+              <in>usbd_ioreq.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="sys">
+          <df name="inc">
+            <in>cmsis_gcc.h</in>
+            <in>core_cm0plus.h</in>
+            <in>core_cmFunc.h</in>
+            <in>core_cmInstr.h</in>
+            <in>stm32l083xx.h</in>
+            <in>stm32l0xx.h</in>
+            <in>system_stm32l0xx.h</in>
+          </df>
+          <df name="lkr">
+          </df>
+          <df name="src">
+            <in>startup_stm32l083xx.s</in>
+            <in>system_stm32l0xx.c</in>
+          </df>
+          <df name="svd">
+          </df>
+        </df>
+        <df name="tools">
+          <df name="gdb">
+          </df>
+          <df name="jlink">
+          </df>
+          <df name="ozone">
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

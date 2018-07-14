@@ -3,10 +3,16 @@
 //Purpose: read from DAQ node the details, merge them and send to sigfox
 //Author:  Pavel Majer
 //Date:    30/12/2017
-//Status: support pairing, get signal, assign message to the DAQ ids, 
-//parse it, store it to internal table and show it
+//Status: support logging, pairing, get signal from DAQ, retieve data from message
+//        assign message to the DAQ ids, parse it, store it to internal table 
+//        loop over table and show it
 //         
-//Plan: 
+//Plan:   detect changes, store last time of sync
+//        detect missing heartbeat
+//        store ids to eeprom (for unique mapping in future)
+//        prepare byte message for sigfox
+//        send sigfox message
+//        battery optimalisation // powerbank? has to run radio all the time? 
 //
 //Revisions: 
 //  
@@ -26,6 +32,11 @@ static uint64_t my_id;
 static bc_led_t led;
 static bool led_state;
 static bool radio_pairing_mode;
+
+//sigfox
+bc_module_sigfox_t sigfox_module;
+#define REGULAR_REPORT_SECONDS (15 * 60)
+
 
 //pama nodes table
 #define MAX_TABLE_LENGTH 10
@@ -104,6 +115,30 @@ int find_my_id_for_node_id(uint64_t node_id);
 bool load_table_from_eeprom(void);
 bool save_table_to_eeprom(void);
 
+//sigfox event handler
+void sigfox_module_event_handler(bc_module_sigfox_t *self, bc_module_sigfox_event_t event, void *event_param)
+{
+    (void) self;
+    (void) event_param;
+ bc_log_info("#sigfox event initiated\r\n");
+  
+    if (event == BC_MODULE_SIGFOX_EVENT_ERROR)
+    {
+    bc_log_info("#sigfox event=BC_MODULE_SIGFOX_EVENT_ERROR\r\n");
+     //        bc_led_set_mode(&led, BC_LED_MODE_BLINK);
+    }
+    if (event == BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_START)
+    {
+       bc_log_info("#sigfox event=BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_START\r\n");
+        //bc_led_set_mode(&led, BC_LED_MODE_ON);
+    }
+    else if (event == BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_DONE)
+    {
+       bc_log_info("#sigfox event=BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_DONE\r\n");
+       // bc_led_set_mode(&led, BC_LED_MODE_OFF);
+     }
+}
+
 
 const usb_talk_subscribe_t subscribes[] = {
     {"/info/get", info_get, 0, NULL},
@@ -155,13 +190,33 @@ void application_init(void)
     led_state = false;
     bc_log_info("#application_init - end\r\n");
 
+  //sigfox
+    bc_log_info("#application_init - bc_module_sigfox_init started\r\n");
+    bc_module_sigfox_init(&sigfox_module, BC_MODULE_SIGFOX_REVISION_R2);
+    bc_module_sigfox_set_event_handler(&sigfox_module, sigfox_module_event_handler, NULL);
+    bc_log_info("#sigfox init - end\r\n");
+
+
 }
 
 
 void application_task(void)
 {
-    // bc_log_info ("#application_task initiated V3");
-    bc_scheduler_plan_current_relative(500);
+    bc_log_info ("#application_task initiated V4");
+  //sigfox
+    if (!bc_module_sigfox_is_ready(&sigfox_module))
+    {
+        bc_log_info("#application_init - bc_module_sigfox_is_ready not ready - plan now\r\n");
+        bc_scheduler_plan_current_now();
+        return;
+    } else {
+      bc_log_info("#application_init - bc_module_sigfox_is_ready - plan now\r\n");
+
+    }
+
+
+
+  //tohle docasne pryc  bc_scheduler_plan_current_relative(500);
 
     /* pama nodes table
     load_table_from_eeprom;
@@ -177,6 +232,35 @@ void application_task(void)
         }
        bool load_table_from_eeprom(void)
     */
+
+
+  uint8_t sbuffer[12];
+  sbuffer[0] = 90;
+  sbuffer[1] = (0 << 7) | (90);
+  sbuffer[2] = (0 << 7) | (90);
+  sbuffer[3] = (1 << 7) | (90);
+  sbuffer[4] = (1 << 7) | (90);
+  sbuffer[5] = (0 << 7) | (90);
+  sbuffer[6] = (1 << 7) | (127); // vic chyb
+  sbuffer[7] = (0 << 7) | (0);  //nevyuzity
+  sbuffer[8] = (0 << 7) | (0);  //nevyuzity
+  sbuffer[9] = (0 << 7) | (0);  //nevyuzity
+  sbuffer[10] = (0 << 7) | (0); //nevyuzity
+  sbuffer[11] = (0 << 7) | (0); //nevyuzity
+ 
+
+
+ bc_log_info("#application_init - sending sigfox msg V4\r\n");
+
+ if (bc_module_sigfox_send_rf_frame(&sigfox_module, sbuffer, sizeof(sbuffer)))
+    {
+        bc_log_info("#application_init - podarilo se odeslat\r\n");
+        bc_scheduler_plan_current_relative(REGULAR_REPORT_SECONDS * 1000);
+    }
+    else
+    {
+        bc_scheduler_plan_current_relative(1000);
+    }
 
 }
 
